@@ -1,5 +1,3 @@
-# workpilot-ai
-IDPA-project
 # WorkPilot
 
 **Author:** Varka Emir
@@ -14,7 +12,21 @@ WorkPilot ist eine lokale Chat-Anwendung, die das Llama3.1:8b Modell über Ollam
 - Verlauf löschen
 - Unterstützt lokale Installation oder Docker
 
-## Installation
+## Ordnerstruktur
+
+workpilot-ai/
+│
+├── app.py # Flask-Anwendung
+├── requirements.txt # Python-Abhängigkeiten
+├── Dockerfile # Docker-Image
+├── LICENSE # MIT-Lizenz
+├── README.md # Projektbeschreibung
+├── templates/
+│ └── index.html # HTML-Frontend
+└── static/
+├── style.css # CSS-Styles
+└── logo.png # Logo
+## Lokale Installation (Python)
 
 1. Repository klonen:
    ```bash
