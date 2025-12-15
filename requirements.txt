@@ -1,0 +1,14 @@
+# Web-Framework
+Flask==2.3.6
+
+# HTTP-Requests für Ollama API
+requests==2.32.0
+
+# Optional: Environment-Variablen aus .env-Dateien
+python-dotenv==1.0.0
+
+# Optional: Session Handling / Caching (falls später gebraucht)
+itsdangerous==2.1.2
+Jinja2==3.1.2
+Werkzeug==2.3.7
+click==8.2.0
